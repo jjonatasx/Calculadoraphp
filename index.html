@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Calculadora 4 operações com css responsivo bootstrap" />
+        <meta name="author" content="jjonatasx" />
+        <title>Calculadora php</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Calculadora php</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Calculadora php</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Criador</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Bem vindo a calculadora php</h1>
+                <p class="lead">Essa Página WEB foi construida utilizando HTML5, JavaScript e o Framework Bootstrap</p>
+                <a class="btn btn-lg btn-light" href="#about">Vamos Começar</a>
+            </div>
+        </header>
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Calculadora php</h2>
+                        <p class="lead">Coloque 2 Valores Para Fazer A Operação</p>
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Valor 1</label>
+                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="n1">
+                              <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">valor 2</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="n2">
+                                <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Resultado</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="somado">
+                                <br>
+                            </div>
+                            <button type="button" class="btn btn-primary" onclick="calcSum()"> + Somar</button>&nbsp;&nbsp;
+                            <button type="button" class="btn btn-primary" onclick="calcSub()"> - Subtrair</button>&nbsp;&nbsp;
+                            <button type="button" class="btn btn-primary" onclick="calcMul()"> * Multiplicar</button>&nbsp;&nbsp;
+                            <button type="button" class="btn btn-primary" onclick="calcDiv()"> / Dividir</button>&nbsp;&nbsp;
+
+                          </form>
+                          
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Sobre A calculadora</h2>
+                        <p class="lead">Este aplicativo WEB foi construido utilizando HTML5, JavaScript e o Framework Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Quem Eu Sou?</h2>
+                        <p class="lead">Sou Aluno Do Marta Terresinha Rosa,Jonatas Da Silva Santos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-dark">
+            
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyleft &copy; </p></div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
